@@ -1,0 +1,9 @@
+tqdm
+h5py
+nltk
+torch torchvision
+Joblib
+scipy
+matplotlib
+rdikt
+fututre 

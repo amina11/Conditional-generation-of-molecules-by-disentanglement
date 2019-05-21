@@ -1,0 +1,7 @@
+data
+__pycache_
+*.npy
+*.csv
+*.swp
+*.DS_Store
+*.sh

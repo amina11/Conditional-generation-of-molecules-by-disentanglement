@@ -1,0 +1,17 @@
+.DS_Store
+*.swp
+__pycache__
+data
+vanilla_supervised_vae
+*.model
+*.npy
+*.csv
+jobname*
+*.txt
+1
+main_2.py
+main.py
+model
+model_2
+*.ipynb
+run_main.sh
