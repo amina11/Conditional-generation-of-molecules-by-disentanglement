@@ -8,6 +8,6 @@ The current code depends on pytorch 0.5.0a0. All the dependency is discribed in 
 ## Training 
 There are two kind of model: main_1.py corresponding where we update both the propery estimator and encoder decoder parameters, while main_3.py corresponding to the model we pretrain property estimator and never update it again during main model training phase.
 To train CGD_GRU_1 model for QM9, run:
-'''
+```
 cd zinc/zinc_1_gru/main_1.py
-'''
+```
