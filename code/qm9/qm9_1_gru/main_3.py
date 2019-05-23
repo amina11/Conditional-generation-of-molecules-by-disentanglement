@@ -79,7 +79,7 @@ original_reward = []
 permuted_reward = []
 
 import time
-for epoch in range(1221, 1500):
+for epoch in range(cmd_args.num_epochs):
     start = time.time()
     random.shuffle(sample_idxes)       
     ## update the vae:
