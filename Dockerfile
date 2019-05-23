@@ -1,8 +1,4 @@
 FROM nvcr.io/nvidia/pytorch:18.06-py3
-ENV http_proxy=http://gateway.zscaler.net:9480
-ENV https_proxy=http://gateway.zscaler.net:9480
-ENV ftp_proxy=http://gateway.zscaler.net:9480
-
 
 RUN ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh
 RUN . /opt/conda/etc/profile.d/conda.sh && conda activate pytorch-py3.6 && conda install -c rdkit rdkit 
