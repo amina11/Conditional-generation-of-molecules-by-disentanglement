@@ -3,8 +3,7 @@
 1. Download the preprocessed data from the following repository and save it under the folder name data/data_100 for QM9 or data/data_278 for ZINC
 
 ## Install the dependencies:
-The current code depends on pytorch 0.5.0a0. All the dependency is discribed in requirement.txt file. You can also use the Dockerfile to set up all the dependency or directly pull the ready image from the following cite
-[Docker image[(https://cloud.docker.com/u/2012913/repository/docker/2012913/sdvae_5_8)
+The current code depends on pytorch 0.5.0a0. All the dependency is discribed in requirement.txt file. You can also use the Dockerfile to set up all the dependency or directly pull the ready image from the following cite https://cloud.docker.com/u/2012913/repository/docker/2012913/sdvae_5_8
 
 ## Training 
 
